@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from "react";
+import Header from "@/components/Header";
+import FilterSection from "@/components/FilterSection";
+import ToolGrid from "@/components/ToolGrid";
+import Footer from "@/components/Footer";
+import { useFilterState } from "@/hooks/useFilterState";
 
-const Index = () => {
+const Index: React.FC = () => {
+  const { filters, setFilter } = useFilterState();
+
+  const isQuickPrompts = filters.category === "Quick Prompts";
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="flex min-h-screen flex-col">
+      <Header
+        searchValue={filters.search}
+        onSearchChange={(v) => setFilter("search", v)}
+        isQuickPrompts={isQuickPrompts}
+      />
+      <FilterSection filters={filters} onFilterChange={setFilter} />
+      <main className="flex-1">
+        <ToolGrid filters={filters} />
+      </main>
+      <Footer />
     </div>
   );
 };
