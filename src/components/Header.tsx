@@ -22,7 +22,7 @@ const Header: React.FC<HeaderProps> = ({ searchValue, onSearchChange, isQuickPro
       <div className="mx-auto max-w-7xl px-4 py-1">
         <div className="flex items-center justify-between gap-4">
           {/* Logo */}
-          <div className="flex-shrink-0 overflow-visible">
+          <div className="flex-shrink-0 overflow-visible ml-4 sm:ml-6 md:ml-8">
             <img
               src={theme === "dark" ? logoDark : logoLight}
               alt="EduTech Hub"
