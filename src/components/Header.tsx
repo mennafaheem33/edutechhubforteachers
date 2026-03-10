@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ searchValue, onSearchChange, isQuickPro
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-card/80 backdrop-blur-md">
-      <div className="mx-auto max-w-7xl px-4 py-4">
+      <div className="mx-auto max-w-7xl px-4 py-1">
         <div className="flex items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex-shrink-0">
