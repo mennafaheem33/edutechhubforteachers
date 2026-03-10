@@ -22,11 +22,12 @@ const Header: React.FC<HeaderProps> = ({ searchValue, onSearchChange, isQuickPro
       <div className="mx-auto max-w-7xl px-4 py-1">
         <div className="flex items-center justify-between gap-4">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 overflow-visible">
             <img
               src={theme === "dark" ? logoDark : logoLight}
               alt="EduTech Hub"
-              className="h-36 w-auto sm:h-40 md:h-48"
+              className="h-36 w-auto sm:h-40 md:h-48 origin-center"
+              style={{ transform: "scale(1.5)" }}
             />
           </div>
 
