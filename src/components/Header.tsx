@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ searchValue, onSearchChange, isQuickPro
             <img
               src={theme === "dark" ? logoDark : logoLight}
               alt="EduTech Hub"
-              className="h-20 w-auto sm:h-24 md:h-28"
+              className="h-28 w-auto sm:h-32 md:h-36"
             />
           </div>
 
