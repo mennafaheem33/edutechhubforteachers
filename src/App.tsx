@@ -6,6 +6,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Index from "./pages/Index";
+import CategoryPage from "./pages/CategoryPage";
+import PromptPage from "./pages/PromptPage";
+import SubjectPage from "./pages/SubjectPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -20,7 +23,9 @@ const App = () => (
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Index />} />
-              <Route path="*" element={<NotFound />} />
+              <Route path="/prompt/:slug" element={<PromptPage />} />
+              <Route path="/subject/:subject" element={<SubjectPage />} />
+              <Route path="/*" element={<CategoryPage />} />
             </Routes>
           </BrowserRouter>
         </TooltipProvider>
