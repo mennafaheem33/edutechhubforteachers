@@ -1116,6 +1116,58 @@ const tools: Tool[] = [
     categories: ["Courses"],
     type: "edtech",
   },
+  // New Presentation tools
+  {
+    id: "slidesmania-games",
+    name: "SlidesMania Games",
+    url: "https://slidesmania.com/tag/games/",
+    description: "Free interactive game templates for Google Slides and PowerPoint presentations.",
+    descriptionAr: "قوالب ألعاب تفاعلية مجانية لعروض جوجل سلايدز وباوربوينت.",
+    subjects: ["Arabic", "English", "Math", "Science", "Social Studies"],
+    categories: ["Presentation"],
+    type: "edtech",
+  },
+  {
+    id: "anjez",
+    name: "انجز",
+    url: "https://anjez.org/",
+    description: "Arabic PowerPoint templates website for professional presentations.",
+    descriptionAr: "موقع قوالب بوربوينت باللغة العربية للعروض التقديمية الاحترافية.",
+    subjects: ["Arabic"],
+    categories: ["Presentation"],
+    type: "edtech",
+  },
+  {
+    id: "slidesgo",
+    name: "SlidesGo",
+    url: "https://slidesgo.com/",
+    description: "Free Google Slides and PowerPoint templates for stunning presentations.",
+    descriptionAr: "قوالب مجانية لجوجل سلايدز وباوربوينت لعروض تقديمية مذهلة.",
+    subjects: ["Arabic", "English", "Math", "Science", "Social Studies", "Business"],
+    categories: ["Presentation"],
+    type: "edtech",
+  },
+  {
+    id: "prezi",
+    name: "Prezi",
+    url: "https://prezi.com/",
+    description: "AI presentation maker for engaging, dynamic, and interactive presentations.",
+    descriptionAr: "صانع عروض تقديمية ذكي لعروض جذابة وديناميكية وتفاعلية.",
+    subjects: ["Arabic", "English", "Math", "Science", "Social Studies", "Business"],
+    categories: ["Presentation"],
+    type: "ai",
+  },
+  // New VR & AR tool
+  {
+    id: "delightex",
+    name: "Delightex Edu",
+    url: "https://edu.delightex.com/",
+    description: "Interactive 3D and VR learning platform for education.",
+    descriptionAr: "منصة تعلم تفاعلية ثلاثية الأبعاد والواقع الافتراضي للتعليم.",
+    subjects: ["Science", "ICT", "Math"],
+    categories: ["VR and AR"],
+    type: "edtech",
+  },
 ];
 
 export default tools;
