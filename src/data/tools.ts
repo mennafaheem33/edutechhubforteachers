@@ -175,7 +175,7 @@ const tools: Tool[] = [
     description: "AI teaching assistant for creating lesson plans, activities, and assessments.",
     descriptionAr: "مساعد تدريس ذكي لإنشاء خطط الدروس والأنشطة والتقييمات.",
     subjects: ["Arabic", "English", "Math", "Science", "Social Studies"],
-    categories: ["Lesson Planning", "Quizzes and Worksheets", "Presentation"],
+    categories: ["Lesson Planning", "Quizzes and Worksheets"],
     type: "ai",
   },
   {
