@@ -70,7 +70,7 @@ const tools: Tool[] = [
     description: "AI-powered platform to brew teaching materials including quizzes and lesson content.",
     descriptionAr: "منصة مدعومة بالذكاء الاصطناعي لإعداد المواد التعليمية بما في ذلك الاختبارات والمحتوى.",
     subjects: ["Arabic", "English", "German", "French", "Math", "Science", "ICT", "Religion", "Christianity", "Philosophy", "Montessori", "Social Studies", "Business", "Skills", "Art", "Music and Songs", "PE", "Library"],
-    categories: ["Lesson Planning", "Quizzes and Worksheets", "Prompt Maker"],
+    categories: ["Lesson Planning", "Quizzes and Worksheets"],
     type: "ai",
     topPick: true,
   },
