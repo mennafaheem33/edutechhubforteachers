@@ -205,7 +205,7 @@ const tools: Tool[] = [
     description: "AI-powered question generator from any text or topic for assessments.",
     descriptionAr: "مولد أسئلة مدعوم بالذكاء الاصطناعي من أي نص أو موضوع للتقييمات.",
     subjects: ["English", "Science", "Math", "Social Studies"],
-    categories: ["Quizzes and Worksheets", "Prompt Maker"],
+    categories: ["Quizzes and Worksheets"],
     type: "ai",
   },
   {
