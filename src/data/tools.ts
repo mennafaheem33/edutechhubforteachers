@@ -891,7 +891,7 @@ const tools: Tool[] = [
     description: "Virtual math manipulatives for interactive geometry and algebra.",
     descriptionAr: "أدوات رياضيات افتراضية للهندسة والجبر التفاعلي.",
     subjects: ["Math"],
-    categories: ["VR and AR", "Gamification"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
