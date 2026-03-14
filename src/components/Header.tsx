@@ -6,6 +6,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import translations from "@/data/translations";
 import logoLight from "@/assets/logo-light.svg";
 import logoDark from "@/assets/logo-dark.svg";
+import GlobalSearch from "@/components/GlobalSearch";
 
 const Header: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
@@ -25,6 +26,9 @@ const Header: React.FC = () => {
               style={{ transform: "scale(1.5)" }}
             />
           </Link>
+
+          {/* Search */}
+          <GlobalSearch />
 
           {/* Controls */}
           <div className="flex items-center gap-2 flex-shrink-0">
