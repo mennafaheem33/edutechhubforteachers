@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useMemo } from "react";
 import { Search, X, ArrowRight, FileText, Globe as GlobeIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { tools } from "@/data/tools";
+import tools from "@/data/tools";
 import prompts from "@/data/prompts";
 
 const GlobalSearch: React.FC = () => {
