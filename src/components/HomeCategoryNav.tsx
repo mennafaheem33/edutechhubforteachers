@@ -43,7 +43,7 @@ const HomeCategoryNav: React.FC = () => {
         src={eduIllustration}
         alt=""
         aria-hidden="true"
-        className="absolute right-0 top-8 w-72 md:w-96 opacity-30 dark:opacity-15 pointer-events-none select-none"
+        className="absolute right-0 -top-16 w-72 md:w-96 opacity-20 dark:opacity-10 pointer-events-none select-none -z-10"
       />
 
       {/* Section Title */}
