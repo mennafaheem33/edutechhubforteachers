@@ -30,7 +30,7 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-2 flex-shrink-0">
             <button
               onClick={() => setLanguage(language === "en" ? "ar" : "en")}
-              className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+              className="flex items-center gap-1.5 rounded-full border border-border px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-muted"
               aria-label="Toggle language"
             >
               <Globe className="h-4 w-4" />
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
             </button>
             <button
               onClick={toggleTheme}
-              className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+              className="flex items-center gap-1.5 rounded-full border border-border px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-muted"
               aria-label="Toggle theme"
             >
               {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
