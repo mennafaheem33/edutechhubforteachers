@@ -1,32 +1,58 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { ChevronDown } from "lucide-react";
+import { Link } from "react-router-dom";
 import { CATEGORY_ROUTES } from "@/data/categoryRoutes";
-import { SUBJECTS } from "@/data/tools";
 import { useLanguage } from "@/contexts/LanguageContext";
 import translations from "@/data/translations";
+import eduIllustration from "@/assets/edu-illustration.png";
+import {
+  BookOpen,
+  ClipboardList,
+  Presentation,
+  Image,
+  Video,
+  BookText,
+  AudioLines,
+  Smile,
+  Glasses,
+  Gamepad2,
+  Wand2,
+} from "lucide-react";
+
+const CATEGORY_ICONS: Record<string, React.ReactNode> = {
+  "Lesson Planning": <BookOpen className="h-5 w-5 text-primary" />,
+  "Quizzes and Worksheets": <ClipboardList className="h-5 w-5 text-primary" />,
+  "Presentation": <Presentation className="h-5 w-5 text-accent" />,
+  "Photo Generation": <Image className="h-5 w-5 text-accent" />,
+  "Video Generation": <Video className="h-5 w-5 text-accent" />,
+  "Story Book Creation": <BookText className="h-5 w-5 text-primary" />,
+  "Text to Speech": <AudioLines className="h-5 w-5 text-accent" />,
+  "Lip Sync": <Smile className="h-5 w-5 text-primary" />,
+  "VR and AR": <Glasses className="h-5 w-5 text-primary" />,
+  "Gamification": <Gamepad2 className="h-5 w-5 text-accent" />,
+  "Prompt Maker": <Wand2 className="h-5 w-5 text-primary" />,
+};
 
 const HomeCategoryNav: React.FC = () => {
   const { language } = useLanguage();
   const t = translations[language];
-  const navigate = useNavigate();
-
-  const handleSubjectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const value = e.target.value;
-    if (value) {
-      navigate(`/subject/${value.toLowerCase().replace(/\s+/g, "-")}`);
-    }
-  };
 
   return (
-    <section className="mx-auto max-w-7xl px-4 py-8 space-y-6">
-      {/* Category Title */}
-      <h2 className="font-display text-xl font-bold text-foreground">
+    <section className="relative mx-auto max-w-7xl px-4 py-10 space-y-8 overflow-hidden">
+      {/* Educational illustration - right side */}
+      <img
+        src={eduIllustration}
+        alt=""
+        aria-hidden="true"
+        className="absolute right-0 top-8 w-72 md:w-96 opacity-30 dark:opacity-15 pointer-events-none select-none"
+      />
+
+      {/* Section Title */}
+      <h2 className="font-display text-2xl md:text-3xl font-bold text-primary relative z-10">
         {t.categoryFilter}
       </h2>
 
-      {/* Category Tabs */}
-      <div className="flex flex-wrap gap-2 overflow-x-auto pb-2 scrollbar-hide">
+      {/* Category Cards Grid */}
+      <div className="relative z-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
         {CATEGORY_ROUTES.map((route) => {
           const label =
             t.categories[route.category as keyof typeof t.categories] ||
@@ -35,36 +61,15 @@ const HomeCategoryNav: React.FC = () => {
             <Link
               key={route.category}
               to={route.path}
-              className="filter-btn whitespace-nowrap hover:border-primary hover:text-primary transition-all"
+              className="category-card"
             >
-              {label}
+              <span className="flex-shrink-0 rounded-lg bg-muted p-2">
+                {CATEGORY_ICONS[route.category] || <BookOpen className="h-5 w-5 text-primary" />}
+              </span>
+              <span className="font-medium text-sm text-foreground">{label}</span>
             </Link>
           );
         })}
-      </div>
-
-      {/* Subject Dropdown */}
-      <div className="space-y-2 pt-2">
-        <p className="text-sm font-medium text-muted-foreground">
-          {t.subjectDropdownLabel}
-        </p>
-        <div className="relative inline-block">
-          <select
-            onChange={handleSubjectChange}
-            defaultValue=""
-            className="appearance-none rounded-lg border border-border bg-card px-4 py-2.5 pr-10 text-sm font-medium text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all cursor-pointer"
-          >
-            <option value="" disabled>
-              {t.subjectDropdownDefault}
-            </option>
-            {SUBJECTS.map((subject) => (
-              <option key={subject} value={subject}>
-                {t.subjects[subject as keyof typeof t.subjects] || subject}
-              </option>
-            ))}
-          </select>
-          <ChevronDown className="pointer-events-none absolute top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" style={{ right: language === "ar" ? "auto" : "0.75rem", left: language === "ar" ? "0.75rem" : "auto" }} />
-        </div>
       </div>
     </section>
   );
