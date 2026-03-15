@@ -104,7 +104,7 @@ const PromptLibrarySection: React.FC = () => {
       </div>
 
       {prompts.length > INITIAL_COUNT && (
-        <div className="flex justify-start mt-8">
+        <div className="flex justify-center mt-8">
           <button
             onClick={() => setExpanded(!expanded)}
             className="inline-flex items-center gap-2 rounded-full border border-secondary px-8 py-2.5 text-sm font-medium text-secondary transition-all duration-200 hover:bg-secondary hover:text-secondary-foreground"
