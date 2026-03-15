@@ -48,6 +48,11 @@ const CATEGORY_ICONS: Record<string, React.ReactNode> = {
 const HomeCategoryNav: React.FC = () => {
   const { language } = useLanguage();
   const t = translations[language];
+  const navigate = useNavigate();
+
+  const handleSubjectChange = (value: string) => {
+    navigate(`/subject/${value.toLowerCase().replace(/\s+/g, "-")}`);
+  };
 
   return (
     <section className="relative mx-auto max-w-7xl px-4 py-10 space-y-8 overflow-hidden">
@@ -83,6 +88,25 @@ const HomeCategoryNav: React.FC = () => {
             </Link>
           );
         })}
+      </div>
+
+      {/* Subject Discovery Dropdown */}
+      <div className="relative z-10 flex flex-col items-center gap-3 pt-4">
+        <p className="text-sm md:text-base font-medium text-muted-foreground">
+          {t.subjectDropdownLabel || "Looking for something related to your subject?"}
+        </p>
+        <Select onValueChange={handleSubjectChange}>
+          <SelectTrigger className="w-60 rounded-full border-primary/20 bg-card shadow-sm">
+            <SelectValue placeholder={t.subjectDropdownDefault || "General"} />
+          </SelectTrigger>
+          <SelectContent>
+            {SUBJECTS.map((subject) => (
+              <SelectItem key={subject} value={subject}>
+                {t.subjects?.[subject as keyof typeof t.subjects] || subject}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
       </div>
     </section>
   );
