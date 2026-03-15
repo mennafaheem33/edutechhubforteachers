@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CATEGORY_ROUTES } from "@/data/categoryRoutes";
 import { useLanguage } from "@/contexts/LanguageContext";
 import translations from "@/data/translations";
@@ -17,6 +17,19 @@ import {
   Gamepad2,
   Wand2,
 } from "lucide-react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+
+const SUBJECTS = [
+  "Arabic", "English", "German", "French", "Math", "Science", "ICT",
+  "Religion", "Christianity", "Philosophy", "Montessori", "Social Studies",
+  "Business", "Skills", "Art", "Music and Songs", "PE", "Library",
+];
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
   "Lesson Planning": <BookOpen className="h-5 w-5 text-primary" />,
