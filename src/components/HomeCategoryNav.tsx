@@ -91,8 +91,8 @@ const HomeCategoryNav: React.FC = () => {
       </div>
 
       {/* Subject Discovery Dropdown */}
-      <div className="relative z-10 flex flex-col items-center gap-3 pt-4">
-        <p className="text-sm md:text-base font-medium text-muted-foreground">
+      <div className="relative z-10 flex flex-col items-start gap-3 pt-4">
+        <p className="text-sm md:text-base font-medium text-primary">
           {t.subjectDropdownLabel || "Looking for something related to your subject?"}
         </p>
         <Select onValueChange={handleSubjectChange}>

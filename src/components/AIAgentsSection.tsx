@@ -7,7 +7,7 @@ import { AnimatePresence } from "framer-motion";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 const AI_AGENT_CATEGORIES = ["Chatbots"];
-const INITIAL_COUNT = 2;
+const INITIAL_COUNT = 4;
 
 const AIAgentsSection: React.FC = () => {
   const { language } = useLanguage();

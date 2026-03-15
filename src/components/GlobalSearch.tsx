@@ -59,7 +59,7 @@ const GlobalSearch: React.FC = () => {
   const slug = (title: string) => title.toLowerCase().replace(/\s+/g, "-").replace(/[^\w-]/g, "");
 
   return (
-    <div ref={containerRef} className="relative flex-1 max-w-md mx-4 hidden sm:block">
+    <div ref={containerRef} className="relative flex-1 max-w-md mx-4">
       <div className="relative">
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
         <input
