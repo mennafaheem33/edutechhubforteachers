@@ -124,7 +124,7 @@ const translations = {
       "Lesson Planning": "تخطيط الدروس",
       "Quizzes and Worksheets": "الاختبارات وأوراق العمل",
       Presentation: "العروض التقديمية",
-      "Photo Generation": "توليد الصور",
+      "Image Generation": "توليد الصور",
       "Video Generation": "توليد الفيديو",
       "Story Book Creation": "كتب القصص",
       "Text to Speech": "تحويل النص إلى كلام",
