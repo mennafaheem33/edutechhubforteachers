@@ -825,7 +825,7 @@ const tools: Tool[] = [
     description: "Turn Google Sheets into flashcards, quiz games, and interactive activities.",
     descriptionAr: "تحويل جداول بيانات جوجل إلى بطاقات تعليمية وألعاب اختبارات وأنشطة تفاعلية.",
     subjects: ["English", "Math", "Science", "Social Studies"],
-    categories: ["Gamification", "Quizzes and Worksheets"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
