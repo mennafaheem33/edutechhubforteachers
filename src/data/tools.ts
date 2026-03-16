@@ -349,7 +349,7 @@ const tools: Tool[] = [
     description: "Free AI image & video generator online — unlimited with no signup.",
     descriptionAr: "مولد صور وفيديوهات ذكي مجاني عبر الإنترنت بدون تسجيل.",
     subjects: ["Art", "English"],
-    categories: ["Photo Generation", "Video Generation"],
+    categories: ["Video Generation"],
     type: "ai",
   },
   {
