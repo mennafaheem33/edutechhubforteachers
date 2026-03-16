@@ -237,7 +237,7 @@ const tools: Tool[] = [
     description: "AI-powered design tool for creating presentations, social media, and visuals.",
     descriptionAr: "أداة تصميم مدعومة بالذكاء الاصطناعي لإنشاء العروض والتصاميم المرئية.",
     subjects: ["Arabic", "English", "Art", "Business", "Social Studies", "Skills"],
-    categories: ["Presentation", "Photo Generation"],
+    categories: ["Presentation"],
     type: "ai",
     topPick: true,
   },
