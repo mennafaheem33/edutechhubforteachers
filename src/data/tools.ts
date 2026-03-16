@@ -248,7 +248,7 @@ const tools: Tool[] = [
     description: "Free AI design tool for logos, t-shirts, social media graphics, and more.",
     descriptionAr: "أداة تصميم ذكية مجانية للشعارات والرسومات والوسائط الاجتماعية.",
     subjects: ["Art", "Business", "Skills"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
