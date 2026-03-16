@@ -1006,7 +1006,7 @@ const tools: Tool[] = [
     description: "Learn music theory for free with interactive exercises and tools.",
     descriptionAr: "تعلم نظرية الموسيقى مجانًا مع تمارين وأدوات تفاعلية.",
     subjects: ["Music and Songs"],
-    categories: ["Lesson Planning", "Gamification"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
