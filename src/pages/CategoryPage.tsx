@@ -93,30 +93,6 @@ const CategoryPage: React.FC = () => {
 
           {/* Filters */}
           <div className="space-y-5 mb-8">
-            {/* Subject Filter */}
-            <div>
-              <h2 className="mb-3 text-sm font-semibold text-foreground font-display">
-                {t.subjectFilter}
-              </h2>
-              <div className="flex flex-wrap gap-2">
-                <button
-                  onClick={() => setFilter("subject", "")}
-                  className={`filter-btn ${!subject ? "filter-btn-active" : ""}`}
-                >
-                  {t.all}
-                </button>
-                {SUBJECTS.map((s) => (
-                  <button
-                    key={s}
-                    onClick={() => setFilter("subject", subject === s ? "" : s)}
-                    className={`filter-btn ${subject === s ? "filter-btn-active" : ""}`}
-                  >
-                    {t.subjects[s as keyof typeof t.subjects] || s}
-                  </button>
-                ))}
-              </div>
-            </div>
-
             {/* Sort + Type Row */}
             <div className="flex flex-wrap items-center gap-4">
               {/* Sort Dropdown */}
