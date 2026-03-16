@@ -144,7 +144,7 @@ const tools: Tool[] = [
     description: "Google's AI notebook for summarizing and querying documents and sources.",
     descriptionAr: "دفتر ملاحظات جوجل الذكي لتلخيص المستندات والمصادر والاستعلام عنها.",
     subjects: ["English", "Science", "Social Studies", "Library", "Arabic"],
-    categories: ["Text Generation"],
+    categories: ["Text Generation", "Lesson Planning"],
     type: "ai",
     topPick: true,
   },
