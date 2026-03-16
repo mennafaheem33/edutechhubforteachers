@@ -16,6 +16,14 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool, index }) => {
 
   const faviconUrl = `https://www.google.com/s2/favicons?domain=${new URL(tool.url).hostname}&sz=64`;
 
+  const gradeLevelLabel = tool.gradeLevel
+    ? tool.gradeLevel === "kg"
+      ? (language === "ar" ? "رياض الأطفال والصفوف الدنيا" : "KG & Lower Grades")
+      : tool.gradeLevel === "upper"
+      ? (language === "ar" ? "الصفوف العليا" : "Upper Grades")
+      : (language === "ar" ? "جميع المراحل" : "All Grades")
+    : null;
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }}
@@ -42,10 +50,17 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool, index }) => {
           </p>
         </div>
       </div>
-      <div className="mt-4 flex items-center justify-between">
-        <span className="inline-flex items-center rounded-full bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground capitalize">
-          {tool.type === "ai" ? t.aiTools : t.edtechTools}
-        </span>
+      <div className="mt-4 flex items-center justify-between flex-wrap gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="inline-flex items-center rounded-full bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground capitalize">
+            {tool.type === "ai" ? t.aiTools : t.edtechTools}
+          </span>
+          {gradeLevelLabel && (
+            <span className="inline-flex items-center rounded-full bg-accent px-2.5 py-0.5 text-xs font-semibold text-accent-foreground">
+              {gradeLevelLabel}
+            </span>
+          )}
+        </div>
         <a
           href={tool.url}
           target="_blank"
