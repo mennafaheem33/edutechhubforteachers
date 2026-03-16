@@ -288,7 +288,7 @@ const tools: Tool[] = [
     description: "AI-powered design tool by Microsoft for stunning visual designs.",
     descriptionAr: "أداة تصميم مدعومة بالذكاء الاصطناعي من مايكروسوفت للتصاميم المرئية المذهلة.",
     subjects: ["Art", "Business", "Skills"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
