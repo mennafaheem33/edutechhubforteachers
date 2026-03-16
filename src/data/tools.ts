@@ -298,7 +298,7 @@ const tools: Tool[] = [
     description: "Google's AI drawing tool that turns rough sketches into professional icons.",
     descriptionAr: "أداة رسم ذكية من جوجل تحول الرسومات التقريبية إلى رموز احترافية.",
     subjects: ["Art", "Skills"],
-    categories: ["Video Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
