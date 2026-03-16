@@ -936,7 +936,7 @@ const tools: Tool[] = [
     description: "Math lessons, practice materials, and interactive activities.",
     descriptionAr: "دروس رياضيات ومواد تدريب وأنشطة تفاعلية.",
     subjects: ["Math"],
-    categories: ["Lesson Planning", "Quizzes and Worksheets"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
