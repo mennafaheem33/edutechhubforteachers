@@ -571,7 +571,7 @@ const tools: Tool[] = [
     description: "Turn children's drawings into animations using Meta's AI technology.",
     descriptionAr: "تحويل رسومات الأطفال إلى رسوم متحركة باستخدام تقنية ميتا الذكية.",
     subjects: ["Art"],
-    categories: ["Video Generation", "Photo Generation"],
+    categories: ["Video Generation"],
     type: "ai",
   },
 
