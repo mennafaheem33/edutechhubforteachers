@@ -186,7 +186,7 @@ const tools: Tool[] = [
     description: "AI quiz generator for teachers to create assessments in seconds.",
     descriptionAr: "مولد اختبارات ذكي للمعلمين لإنشاء تقييمات في ثوانٍ.",
     subjects: ["English", "Math", "Science", "Social Studies"],
-    categories: ["Quizzes and Worksheets"],
+    categories: ["Lesson Planning"],
     type: "ai",
   },
   {
