@@ -258,7 +258,7 @@ const tools: Tool[] = [
     description: "AI creative suite for generating and editing images, videos, and 3D content.",
     descriptionAr: "مجموعة إبداعية ذكية لتوليد وتعديل الصور والفيديوهات والمحتوى ثلاثي الأبعاد.",
     subjects: ["Art", "ICT"],
-    categories: ["Photo Generation", "Video Generation"],
+    categories: ["Video Generation"],
     type: "ai",
   },
   {
