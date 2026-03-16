@@ -155,7 +155,7 @@ const tools: Tool[] = [
     description: "Build and experiment with Google's generative AI models for education.",
     descriptionAr: "بناء وتجربة نماذج جوجل التوليدية للذكاء الاصطناعي في التعليم.",
     subjects: ["ICT", "Science", "Math"],
-    categories: ["Text Generation", "Photo Generation"],
+    categories: ["Text Generation", "Image Generation"],
     type: "ai",
   },
   {
