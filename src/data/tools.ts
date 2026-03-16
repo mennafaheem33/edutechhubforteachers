@@ -753,7 +753,7 @@ const tools: Tool[] = [
     description: "Gamified quiz platform where students compete while learning.",
     descriptionAr: "منصة اختبارات مُلعبة حيث يتنافس الطلاب أثناء التعلم.",
     subjects: ["English", "Math", "Science", "Social Studies"],
-    categories: ["Gamification", "Quizzes and Worksheets"],
+    categories: ["Gamification"],
     type: "edtech",
     topPick: true,
   },
