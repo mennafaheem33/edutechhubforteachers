@@ -784,8 +784,9 @@ const tools: Tool[] = [
     description: "Free educational games covering math, reading, and science for kids.",
     descriptionAr: "ألعاب تعليمية مجانية تغطي الرياضيات والقراءة والعلوم للأطفال.",
     subjects: ["English", "Math", "Science"],
-    categories: ["Gamification"],
+    categories: ["Gamification", "Quizzes and Worksheets"],
     type: "edtech",
+    gradeLevel: "kg",
   },
   {
     id: "sesamestreet",
