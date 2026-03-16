@@ -583,7 +583,7 @@ const tools: Tool[] = [
     description: "Game-based learning platform for creating engaging quizzes and competitions.",
     descriptionAr: "منصة تعلم قائمة على الألعاب لإنشاء اختبارات ومسابقات تفاعلية.",
     subjects: ["Arabic", "English", "German", "French", "Math", "Science", "ICT", "Religion", "Christianity", "Philosophy", "Montessori", "Social Studies", "Business", "Skills", "Art", "Music and Songs", "PE", "Library"],
-    categories: ["Gamification", "Quizzes and Worksheets"],
+    categories: ["Gamification"],
     type: "edtech",
     topPick: true,
   },
