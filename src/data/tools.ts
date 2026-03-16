@@ -21,7 +21,7 @@ export const SUBJECTS = [
 
 export const CATEGORIES = [
   "Text Generation", "Lesson Planning", "Quizzes and Worksheets", "Presentation",
-  "Photo Generation", "Video Generation", "Story Book Creation", "Text to Speech",
+  "Image Generation", "Video Generation", "Story Book Creation", "Text to Speech",
   "Lip Sync", "VR and AR", "Gamification", "Quick Prompts", "Chatbots",
   "Prompt Maker", "Courses"
 ] as const;
@@ -49,7 +49,7 @@ const tools: Tool[] = [
     description: "Google's AI assistant for research, writing, and creative tasks in education.",
     descriptionAr: "مساعد جوجل الذكي للبحث والكتابة والمهام الإبداعية في التعليم.",
     subjects: ["Arabic", "English", "German", "French", "Math", "Science", "ICT", "Religion", "Christianity", "Philosophy", "Montessori", "Social Studies", "Business", "Skills", "Art", "Music and Songs", "PE", "Library"],
-    categories: ["Text Generation", "Chatbots", "Photo Generation"],
+    categories: ["Text Generation", "Chatbots", "Image Generation"],
     type: "ai",
     topPick: true,
   },
@@ -114,7 +114,7 @@ const tools: Tool[] = [
     description: "AI chatbot with real-time information and creative content generation.",
     descriptionAr: "روبوت ذكاء اصطناعي مع معلومات فورية وتوليد محتوى إبداعي.",
     subjects: ["English", "Math", "Science", "ICT", "Social Studies"],
-    categories: ["Text Generation", "Chatbots", "Photo Generation"],
+    categories: ["Text Generation", "Chatbots", "Image Generation", "Video Generation"],
     type: "ai",
   },
   {
@@ -155,7 +155,7 @@ const tools: Tool[] = [
     description: "Build and experiment with Google's generative AI models for education.",
     descriptionAr: "بناء وتجربة نماذج جوجل التوليدية للذكاء الاصطناعي في التعليم.",
     subjects: ["ICT", "Science", "Math"],
-    categories: ["Text Generation", "Photo Generation"],
+    categories: ["Text Generation", "Image Generation"],
     type: "ai",
   },
   {
@@ -248,7 +248,7 @@ const tools: Tool[] = [
     description: "Free AI design tool for logos, t-shirts, social media graphics, and more.",
     descriptionAr: "أداة تصميم ذكية مجانية للشعارات والرسومات والوسائط الاجتماعية.",
     subjects: ["Art", "Business", "Skills"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -268,7 +268,7 @@ const tools: Tool[] = [
     description: "Free unlimited AI image generator with no sign-up required.",
     descriptionAr: "مولد صور ذكي مجاني وغير محدود بدون تسجيل.",
     subjects: ["Art", "English", "Science"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -278,7 +278,7 @@ const tools: Tool[] = [
     description: "AI design tool for designers, creatives, and teams to generate visuals.",
     descriptionAr: "أداة تصميم ذكية للمصممين والمبدعين والفرق لتوليد المرئيات.",
     subjects: ["Art", "Business"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -288,7 +288,7 @@ const tools: Tool[] = [
     description: "AI-powered design tool by Microsoft for stunning visual designs.",
     descriptionAr: "أداة تصميم مدعومة بالذكاء الاصطناعي من مايكروسوفت للتصاميم المرئية المذهلة.",
     subjects: ["Art", "Business", "Skills"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -298,7 +298,7 @@ const tools: Tool[] = [
     description: "Google's AI drawing tool that turns rough sketches into professional icons.",
     descriptionAr: "أداة رسم ذكية من جوجل تحول الرسومات التقريبية إلى رموز احترافية.",
     subjects: ["Art", "Skills"],
-    categories: ["Video Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -308,7 +308,7 @@ const tools: Tool[] = [
     description: "Free online image tools for editing, converting, and enhancing images.",
     descriptionAr: "أدوات صور مجانية عبر الإنترنت لتعديل وتحويل وتحسين الصور.",
     subjects: ["Art", "ICT"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -318,7 +318,7 @@ const tools: Tool[] = [
     description: "AI-powered creative tool for quick design, video, and content creation.",
     descriptionAr: "أداة إبداعية مدعومة بالذكاء الاصطناعي للتصميم السريع وإنشاء المحتوى.",
     subjects: ["Art", "Business", "Skills"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -419,7 +419,7 @@ const tools: Tool[] = [
     description: "Google Labs AI tool for creating music, sounds, and video effects.",
     descriptionAr: "أداة مختبرات جوجل الذكية لإنشاء الموسيقى والأصوات والمؤثرات.",
     subjects: ["Music and Songs", "Art"],
-    categories: ["Video Generation", "Text to Speech", "Photo Generation"],
+    categories: ["Video Generation", "Text to Speech", "Image Generation"],
     type: "ai",
   },
   {
@@ -551,7 +551,7 @@ const tools: Tool[] = [
     description: "AI coloring page generator for creative and educational art activities.",
     descriptionAr: "مولد صفحات تلوين ذكي للأنشطة الفنية الإبداعية والتعليمية.",
     subjects: ["Art"],
-    categories: ["Video Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -561,7 +561,7 @@ const tools: Tool[] = [
     description: "AI tool to colorize black and white photos automatically.",
     descriptionAr: "أداة ذكية لتلوين الصور بالأبيض والأسود تلقائيًا.",
     subjects: ["Art", "Social Studies"],
-    categories: ["Video Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -571,7 +571,7 @@ const tools: Tool[] = [
     description: "Turn children's drawings into animations using Meta's AI technology.",
     descriptionAr: "تحويل رسومات الأطفال إلى رسوم متحركة باستخدام تقنية ميتا الذكية.",
     subjects: ["Art"],
-    categories: ["Video Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
 
@@ -594,7 +594,7 @@ const tools: Tool[] = [
     description: "Online design platform for creating presentations, posters, and educational visuals.",
     descriptionAr: "منصة تصميم عبر الإنترنت لإنشاء العروض التقديمية والملصقات والمرئيات التعليمية.",
     subjects: ["Arabic", "English", "Art", "Business", "Social Studies", "Skills"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "edtech",
     topPick: true,
   },
@@ -1161,7 +1161,7 @@ const tools: Tool[] = [
     description: "OpenAI's AI model for generating realistic videos and images from text.",
     descriptionAr: "نموذج الذكاء الاصطناعي من OpenAI لتوليد فيديوهات وصور واقعية من النص.",
     subjects: ["Art", "ICT"],
-    categories: ["Photo Generation", "Video Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -1171,7 +1171,27 @@ const tools: Tool[] = [
     description: "AI platform for generating images, videos, and designs with creative control.",
     descriptionAr: "منصة ذكاء اصطناعي لتوليد الصور والفيديوهات والتصاميم مع تحكم إبداعي.",
     subjects: ["Art", "ICT", "Business"],
-    categories: ["Photo Generation", "Video Generation"],
+    categories: ["Image Generation", "Video Generation"],
+    type: "ai",
+  },
+  {
+    id: "roboneo",
+    name: "RoboNeo",
+    url: "https://roboneo.com/",
+    description: "AI visual design agent for creating stunning graphics and video content.",
+    descriptionAr: "عميل تصميم بصري ذكي لإنشاء رسومات ومحتوى فيديو مذهل.",
+    subjects: ["Art", "ICT", "Business"],
+    categories: ["Video Generation"],
+    type: "ai",
+  },
+  {
+    id: "movieflow",
+    name: "MovieFlow",
+    url: "https://movieflow.ai/",
+    description: "AI movie studio for creating professional video content easily.",
+    descriptionAr: "استوديو أفلام ذكي لإنشاء محتوى فيديو احترافي بسهولة.",
+    subjects: ["Art", "ICT"],
+    categories: ["Video Generation"],
     type: "ai",
   },
 ];

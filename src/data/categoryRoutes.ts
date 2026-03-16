@@ -9,7 +9,7 @@ export const CATEGORY_ROUTES: CategoryRoute[] = [
   { category: "Lesson Planning", path: "/lesson-planning-tools", titleEn: "Lesson Planning AI Tools", titleAr: "أدوات الذكاء الاصطناعي لتخطيط الدروس" },
   { category: "Quizzes and Worksheets", path: "/quiz-worksheet-tools", titleEn: "Quiz & Worksheet Creation Tools", titleAr: "أدوات إنشاء الاختبارات وأوراق العمل" },
   { category: "Presentation", path: "/presentation-tools", titleEn: "AI Presentation Tools", titleAr: "أدوات العروض التقديمية الذكية" },
-  { category: "Photo Generation", path: "/ai-image-tools", titleEn: "AI Image Generation Tools", titleAr: "أدوات توليد الصور بالذكاء الاصطناعي" },
+  { category: "Image Generation", path: "/ai-image-tools", titleEn: "AI Image Generation Tools", titleAr: "أدوات توليد الصور بالذكاء الاصطناعي" },
   { category: "Video Generation", path: "/ai-video-tools", titleEn: "AI Video Creation Tools", titleAr: "أدوات إنشاء الفيديو الذكية" },
   { category: "Story Book Creation", path: "/story-book-tools", titleEn: "Story Book Creation Tools", titleAr: "أدوات إنشاء كتب القصص" },
   { category: "Text to Speech", path: "/text-to-speech-tools", titleEn: "Text to Speech Tools", titleAr: "أدوات تحويل النص إلى كلام" },
