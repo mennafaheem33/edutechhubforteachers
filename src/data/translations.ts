@@ -56,7 +56,7 @@ const translations = {
       "Lesson Planning": "Lesson Planning",
       "Quizzes and Worksheets": "Quizzes & Worksheets",
       Presentation: "Presentation",
-      "Photo Generation": "Photo Generation",
+      "Image Generation": "Image Generation",
       "Video Generation": "Video Generation",
       "Story Book Creation": "Story Book",
       "Text to Speech": "Text to Speech",
