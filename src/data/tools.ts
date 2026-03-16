@@ -196,7 +196,7 @@ const tools: Tool[] = [
     description: "AI tool for differentiating content at any reading level.",
     descriptionAr: "أداة ذكاء اصطناعي لتمييز المحتوى في أي مستوى قراءة.",
     subjects: ["English", "Science", "Social Studies"],
-    categories: ["Quizzes and Worksheets", "Text Generation"],
+    categories: ["Lesson Planning", "Text Generation"],
     type: "ai",
   },
   {
