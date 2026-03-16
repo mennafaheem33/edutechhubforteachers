@@ -551,7 +551,7 @@ const tools: Tool[] = [
     description: "AI coloring page generator for creative and educational art activities.",
     descriptionAr: "مولد صفحات تلوين ذكي للأنشطة الفنية الإبداعية والتعليمية.",
     subjects: ["Art"],
-    categories: ["Video Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -561,7 +561,7 @@ const tools: Tool[] = [
     description: "AI tool to colorize black and white photos automatically.",
     descriptionAr: "أداة ذكية لتلوين الصور بالأبيض والأسود تلقائيًا.",
     subjects: ["Art", "Social Studies"],
-    categories: ["Video Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
@@ -571,7 +571,7 @@ const tools: Tool[] = [
     description: "Turn children's drawings into animations using Meta's AI technology.",
     descriptionAr: "تحويل رسومات الأطفال إلى رسوم متحركة باستخدام تقنية ميتا الذكية.",
     subjects: ["Art"],
-    categories: ["Video Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
 
