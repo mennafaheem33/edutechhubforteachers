@@ -976,7 +976,7 @@ const tools: Tool[] = [
     description: "Free exercise library with interactive muscle map for PE teachers.",
     descriptionAr: "مكتبة تمارين مجانية مع خريطة عضلات تفاعلية لمعلمي التربية البدنية.",
     subjects: ["PE"],
-    categories: ["Lesson Planning"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
