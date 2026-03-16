@@ -227,7 +227,7 @@ const tools: Tool[] = [
     description: "Visual AI tool for creating diagrams and business storytelling visuals.",
     descriptionAr: "أداة ذكاء اصطناعي بصرية لإنشاء الرسوم البيانية والعروض المرئية.",
     subjects: ["Business", "Social Studies", "Science", "Skills"],
-    categories: ["Presentation", "Photo Generation"],
+    categories: ["Presentation"],
     type: "ai",
   },
   {
