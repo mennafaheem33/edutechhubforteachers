@@ -642,6 +642,7 @@ const tools: Tool[] = [
     categories: ["Quizzes and Worksheets"],
     type: "edtech",
     topPick: true,
+    gradeLevel: "both",
   },
   {
     id: "kiddoworksheets",
