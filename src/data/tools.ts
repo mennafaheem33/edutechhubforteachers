@@ -662,7 +662,7 @@ const tools: Tool[] = [
     description: "Free Google Slides and PowerPoint templates for education and games.",
     descriptionAr: "قوالب شرائح جوجل وباوربوينت مجانية للتعليم والألعاب.",
     subjects: ["Arabic", "English", "Math", "Science", "Social Studies"],
-    categories: ["Presentation"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
