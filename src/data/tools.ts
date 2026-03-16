@@ -672,7 +672,7 @@ const tools: Tool[] = [
     description: "Free presentation templates for Google Slides and PowerPoint.",
     descriptionAr: "قوالب عروض تقديمية مجانية لشرائح جوجل وباوربوينت.",
     subjects: ["Arabic", "English", "Math", "Science"],
-    categories: ["Presentation"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
