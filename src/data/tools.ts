@@ -774,7 +774,7 @@ const tools: Tool[] = [
     description: "Free learning app with lessons in math, science, languages, and more.",
     descriptionAr: "تطبيق تعلم مجاني مع دروس في الرياضيات والعلوم واللغات والمزيد.",
     subjects: ["English", "Math", "Science", "Social Studies", "Music and Songs"],
-    categories: ["Gamification", "Lesson Planning"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
