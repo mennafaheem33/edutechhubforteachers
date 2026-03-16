@@ -551,7 +551,7 @@ const tools: Tool[] = [
     description: "AI coloring page generator for creative and educational art activities.",
     descriptionAr: "مولد صفحات تلوين ذكي للأنشطة الفنية الإبداعية والتعليمية.",
     subjects: ["Art"],
-    categories: ["Photo Generation"],
+    categories: ["Video Generation"],
     type: "ai",
   },
   {
