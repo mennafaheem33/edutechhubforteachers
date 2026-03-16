@@ -10,6 +10,7 @@ export interface Tool {
   categories: string[];
   type: ToolType;
   topPick?: boolean;
+  gradeLevel?: "kg" | "upper" | "both";
 }
 
 export const SUBJECTS = [
