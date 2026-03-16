@@ -986,7 +986,7 @@ const tools: Tool[] = [
     description: "Exercise library and workout plans for physical education.",
     descriptionAr: "مكتبة تمارين وخطط تمارين للتربية البدنية.",
     subjects: ["PE"],
-    categories: ["Lesson Planning"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
