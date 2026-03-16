@@ -743,7 +743,7 @@ const tools: Tool[] = [
     description: "Interactive lesson platform with real-time student engagement tools.",
     descriptionAr: "منصة دروس تفاعلية مع أدوات مشاركة الطلاب في الوقت الفعلي.",
     subjects: ["English", "Math", "Science", "Social Studies"],
-    categories: ["Gamification", "Lesson Planning"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
