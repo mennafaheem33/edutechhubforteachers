@@ -114,7 +114,7 @@ const tools: Tool[] = [
     description: "AI chatbot with real-time information and creative content generation.",
     descriptionAr: "روبوت ذكاء اصطناعي مع معلومات فورية وتوليد محتوى إبداعي.",
     subjects: ["English", "Math", "Science", "ICT", "Social Studies"],
-    categories: ["Text Generation", "Chatbots", "Photo Generation"],
+    categories: ["Text Generation", "Chatbots", "Image Generation", "Video Generation"],
     type: "ai",
   },
   {
