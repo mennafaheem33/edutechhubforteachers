@@ -594,7 +594,7 @@ const tools: Tool[] = [
     description: "Online design platform for creating presentations, posters, and educational visuals.",
     descriptionAr: "منصة تصميم عبر الإنترنت لإنشاء العروض التقديمية والملصقات والمرئيات التعليمية.",
     subjects: ["Arabic", "English", "Art", "Business", "Social Studies", "Skills"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "edtech",
     topPick: true,
   },
