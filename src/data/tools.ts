@@ -318,7 +318,7 @@ const tools: Tool[] = [
     description: "AI-powered creative tool for quick design, video, and content creation.",
     descriptionAr: "أداة إبداعية مدعومة بالذكاء الاصطناعي للتصميم السريع وإنشاء المحتوى.",
     subjects: ["Art", "Business", "Skills"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
