@@ -419,7 +419,7 @@ const tools: Tool[] = [
     description: "Google Labs AI tool for creating music, sounds, and video effects.",
     descriptionAr: "أداة مختبرات جوجل الذكية لإنشاء الموسيقى والأصوات والمؤثرات.",
     subjects: ["Music and Songs", "Art"],
-    categories: ["Video Generation", "Text to Speech", "Photo Generation"],
+    categories: ["Video Generation", "Text to Speech", "Image Generation"],
     type: "ai",
   },
   {
