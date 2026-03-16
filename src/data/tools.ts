@@ -628,7 +628,7 @@ const tools: Tool[] = [
     description: "Online teaching platform for interactive whiteboards with ready-made lessons.",
     descriptionAr: "منصة تدريس عبر الإنترنت للسبورات التفاعلية مع دروس جاهزة.",
     subjects: ["Math", "Science", "English"],
-    categories: ["Lesson Planning", "Gamification"],
+    categories: ["Gamification"],
     type: "edtech",
     topPick: true,
   },
