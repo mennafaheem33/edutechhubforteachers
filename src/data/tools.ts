@@ -1132,6 +1132,48 @@ const tools: Tool[] = [
     categories: ["VR and AR"],
     type: "edtech",
   },
+  // New tools
+  {
+    id: "abby-the-pup",
+    name: "Abby the Pup",
+    url: "https://www.abbythepup.com/",
+    description: "Free kindergarten and preschool printables for early learners.",
+    descriptionAr: "مطبوعات مجانية لرياض الأطفال وما قبل المدرسة للمتعلمين الصغار.",
+    subjects: ["English", "Math"],
+    categories: ["Quizzes and Worksheets"],
+    type: "edtech",
+    gradeLevel: "kg",
+  },
+  {
+    id: "presentations-ai",
+    name: "Presentations.AI",
+    url: "https://www.presentations.ai/",
+    description: "Best AI presentation maker and slide creator for professional presentations.",
+    descriptionAr: "أفضل صانع عروض تقديمية بالذكاء الاصطناعي ومنشئ شرائح للعروض الاحترافية.",
+    subjects: ["Arabic", "English", "Math", "Science", "Social Studies", "Business"],
+    categories: ["Presentation"],
+    type: "ai",
+  },
+  {
+    id: "sora",
+    name: "Sora",
+    url: "https://sora.com/",
+    description: "OpenAI's AI model for generating realistic videos and images from text.",
+    descriptionAr: "نموذج الذكاء الاصطناعي من OpenAI لتوليد فيديوهات وصور واقعية من النص.",
+    subjects: ["Art", "ICT"],
+    categories: ["Photo Generation", "Video Generation"],
+    type: "ai",
+  },
+  {
+    id: "leonardo",
+    name: "Leonardo.Ai",
+    url: "https://leonardo.ai/",
+    description: "AI platform for generating images, videos, and designs with creative control.",
+    descriptionAr: "منصة ذكاء اصطناعي لتوليد الصور والفيديوهات والتصاميم مع تحكم إبداعي.",
+    subjects: ["Art", "ICT", "Business"],
+    categories: ["Photo Generation", "Video Generation"],
+    type: "ai",
+  },
 ];
 
 export default tools;
