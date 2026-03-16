@@ -926,7 +926,7 @@ const tools: Tool[] = [
     description: "Math problem solver with step-by-step solutions for algebra and calculus.",
     descriptionAr: "حل مسائل رياضيات مع حلول خطوة بخطوة للجبر والتفاضل.",
     subjects: ["Math"],
-    categories: ["Lesson Planning"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
