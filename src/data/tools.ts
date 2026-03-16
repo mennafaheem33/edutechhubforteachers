@@ -996,7 +996,7 @@ const tools: Tool[] = [
     description: "Workout planner and tracking app for fitness and PE programs.",
     descriptionAr: "تطبيق تخطيط وتتبع التمارين لبرامج اللياقة والتربية البدنية.",
     subjects: ["PE"],
-    categories: ["Lesson Planning"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
