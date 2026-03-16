@@ -268,7 +268,7 @@ const tools: Tool[] = [
     description: "Free unlimited AI image generator with no sign-up required.",
     descriptionAr: "مولد صور ذكي مجاني وغير محدود بدون تسجيل.",
     subjects: ["Art", "English", "Science"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
