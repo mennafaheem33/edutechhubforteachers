@@ -165,7 +165,7 @@ const tools: Tool[] = [
     description: "AI tool to create personalized exercises and lesson materials for any subject.",
     descriptionAr: "أداة ذكاء اصطناعي لإنشاء تمارين ومواد دراسية مخصصة لأي مادة.",
     subjects: ["Arabic", "English", "German", "French", "Math", "Science", "Social Studies"],
-    categories: ["Lesson Planning", "Quizzes and Worksheets"],
+    categories: ["Lesson Planning"],
     type: "ai",
     topPick: true,
   },
