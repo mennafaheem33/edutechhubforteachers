@@ -561,7 +561,7 @@ const tools: Tool[] = [
     description: "AI tool to colorize black and white photos automatically.",
     descriptionAr: "أداة ذكية لتلوين الصور بالأبيض والأسود تلقائيًا.",
     subjects: ["Art", "Social Studies"],
-    categories: ["Photo Generation"],
+    categories: ["Video Generation"],
     type: "ai",
   },
   {
