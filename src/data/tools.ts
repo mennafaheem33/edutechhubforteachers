@@ -60,7 +60,7 @@ const tools: Tool[] = [
     description: "AI platform designed specifically for teachers to create lesson plans and assessments.",
     descriptionAr: "منصة ذكاء اصطناعي مصممة خصيصًا للمعلمين لإنشاء خطط الدروس والتقييمات.",
     subjects: ["Arabic", "English", "German", "French", "Math", "Science", "ICT", "Religion", "Christianity", "Philosophy", "Montessori", "Social Studies", "Business", "Skills", "Art", "Music and Songs", "PE", "Library"],
-    categories: ["Lesson Planning", "Text Generation", "Quizzes and Worksheets"],
+    categories: ["Lesson Planning", "Text Generation"],
     type: "ai",
     topPick: true,
   },
