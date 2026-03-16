@@ -682,7 +682,7 @@ const tools: Tool[] = [
     description: "Arabic PowerPoint templates website for educational presentations.",
     descriptionAr: "موقع قوالب بوربوينت باللغة العربية للعروض التعليمية.",
     subjects: ["Arabic"],
-    categories: ["Presentation"],
+    categories: ["Gamification"],
     type: "edtech",
   },
   {
