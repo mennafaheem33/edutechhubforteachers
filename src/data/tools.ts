@@ -278,7 +278,7 @@ const tools: Tool[] = [
     description: "AI design tool for designers, creatives, and teams to generate visuals.",
     descriptionAr: "أداة تصميم ذكية للمصممين والمبدعين والفرق لتوليد المرئيات.",
     subjects: ["Art", "Business"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
