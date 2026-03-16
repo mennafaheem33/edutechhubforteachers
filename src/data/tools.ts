@@ -653,6 +653,7 @@ const tools: Tool[] = [
     subjects: ["English", "Math"],
     categories: ["Quizzes and Worksheets"],
     type: "edtech",
+    gradeLevel: "kg",
   },
   {
     id: "slidesmania",
