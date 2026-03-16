@@ -49,7 +49,7 @@ const tools: Tool[] = [
     description: "Google's AI assistant for research, writing, and creative tasks in education.",
     descriptionAr: "مساعد جوجل الذكي للبحث والكتابة والمهام الإبداعية في التعليم.",
     subjects: ["Arabic", "English", "German", "French", "Math", "Science", "ICT", "Religion", "Christianity", "Philosophy", "Montessori", "Social Studies", "Business", "Skills", "Art", "Music and Songs", "PE", "Library"],
-    categories: ["Text Generation", "Chatbots", "Photo Generation"],
+    categories: ["Text Generation", "Chatbots", "Image Generation"],
     type: "ai",
     topPick: true,
   },
