@@ -21,7 +21,7 @@ export const SUBJECTS = [
 
 export const CATEGORIES = [
   "Text Generation", "Lesson Planning", "Quizzes and Worksheets", "Presentation",
-  "Photo Generation", "Video Generation", "Story Book Creation", "Text to Speech",
+  "Image Generation", "Video Generation", "Story Book Creation", "Text to Speech",
   "Lip Sync", "VR and AR", "Gamification", "Quick Prompts", "Chatbots",
   "Prompt Maker", "Courses"
 ] as const;
