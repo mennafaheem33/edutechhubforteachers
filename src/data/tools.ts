@@ -308,7 +308,7 @@ const tools: Tool[] = [
     description: "Free online image tools for editing, converting, and enhancing images.",
     descriptionAr: "أدوات صور مجانية عبر الإنترنت لتعديل وتحويل وتحسين الصور.",
     subjects: ["Art", "ICT"],
-    categories: ["Photo Generation"],
+    categories: ["Image Generation"],
     type: "ai",
   },
   {
