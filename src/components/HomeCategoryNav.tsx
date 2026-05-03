@@ -28,7 +28,7 @@ import {
 const SUBJECTS = [
   "Arabic", "English", "German", "French", "Math", "Science", "ICT",
   "Religion", "Christianity", "Philosophy", "Montessori", "Social Studies",
-  "Business", "Skills", "Art", "Music and Songs", "PE", "Library",
+  "Business", "Skills", "Art", "Music", "PE", "Library",
 ];
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
