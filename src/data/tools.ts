@@ -991,6 +991,16 @@ const tools: Tool[] = [
     type: "edtech",
   },
   {
+    id: "geogebra",
+    name: "GeoGebra",
+    url: "https://www.geogebra.org/classic",
+    description: "Dynamic mathematics software for geometry, algebra, and calculus.",
+    descriptionAr: "برنامج رياضيات ديناميكي للهندسة والجبر والتفاضل والتكامل.",
+    subjects: ["Math"],
+    categories: [],
+    type: "edtech",
+  },
+  {
     id: "gliglish",
     name: "Gliglish",
     url: "https://gliglish.com/",
