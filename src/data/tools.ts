@@ -555,16 +555,6 @@ const tools: Tool[] = [
     type: "ai",
   },
   {
-    id: "colourise",
-    name: "AI Coloring",
-    url: "https://colourise.com/",
-    description: "AI tool to colorize black and white photos automatically.",
-    descriptionAr: "أداة ذكية لتلوين الصور بالأبيض والأسود تلقائيًا.",
-    subjects: [],
-    categories: ["Image Generation"],
-    type: "ai",
-  },
-  {
     id: "sketch-meta",
     name: "Animated Drawings (Meta)",
     url: "https://sketch.metademolab.com/",
