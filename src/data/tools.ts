@@ -1216,6 +1216,16 @@ const tools: Tool[] = [
     type: "ai",
   },
   {
+    id: "taysteachingtoolkit",
+    name: "Tays Teaching Toolkit",
+    url: "https://taysteachingtoolkit.com/collection/free-powerpoint-games",
+    description: "Free PowerPoint games collection for interactive classroom presentations.",
+    descriptionAr: "مجموعة ألعاب باوربوينت مجانية للعروض التقديمية التفاعلية في الفصل.",
+    subjects: [],
+    categories: ["Presentation"],
+    type: "edtech",
+  },
+  {
     id: "sora",
     name: "Sora",
     url: "https://sora.com/",
@@ -1307,6 +1317,16 @@ const tools: Tool[] = [
     type: "edtech",
   },
   {
+    id: "vlaby",
+    name: "VLaby",
+    url: "https://vlaby.com/",
+    description: "Virtual science lab platform for interactive experiments and simulations.",
+    descriptionAr: "منصة مختبر علمي افتراضي للتجارب والمحاكاات التفاعلية.",
+    subjects: ["Science"],
+    categories: [],
+    type: "edtech",
+  },
+  {
     id: "quivervision",
     name: "QuiverVision",
     url: "https://quivervision.com/",
@@ -1383,6 +1403,7 @@ const tools: Tool[] = [
   { id: "wordwall-arabic-letters-1", name: "Arabic Letters Game", url: "https://wordwall.net/en/community/arabic-letters", description: "Interactive Arabic letters teaching resources.", descriptionAr: "موارد تعليمية تفاعلية لحروف اللغة العربية.", subjects: ["Arabic"], categories: [], type: "edtech" },
   { id: "wordwall-arabic-letters-2", name: "Arabic Letters - موارد تعليمية", url: "https://wordwall.net/ar/community/arabic-letters", description: "Arabic letters interactive teaching resources.", descriptionAr: "موارد تعليمية تفاعلية لحروف اللغة العربية.", subjects: ["Arabic"], categories: [], type: "edtech" },
   { id: "wordwall-arabic-game", name: "Arabic Game - Teaching Resources", url: "https://wordwall.net/en/community/arabic", description: "Interactive Arabic games and teaching resources.", descriptionAr: "ألعاب وموارد تعليمية تفاعلية للغة العربية.", subjects: ["Arabic"], categories: [], type: "edtech" },
+  { id: "numue", name: "NuMUE", url: "https://numue.qcri.org/home/", description: "Arabic language learning and assessment tools for students.", descriptionAr: "أدوات تعلم وتقييم اللغة العربية للطلاب.", subjects: ["Arabic"], categories: [], type: "edtech" },
 
   // === German / French shared ===
   { id: "conjuguemos", name: "Conjuguemos", url: "https://conjuguemos.com/", description: "Practice verb conjugation and vocabulary in many languages.", descriptionAr: "تدرب على تصريف الأفعال والمفردات في عدة لغات.", subjects: ["German", "French"], categories: [], type: "edtech" },
@@ -1455,6 +1476,7 @@ const tools: Tool[] = [
   { id: "discovering-ancient-egypt", name: "Discovering Ancient Egypt", url: "https://discoveringegypt.com/", description: "Hieroglyphs, pharaohs, pyramids, mummification.", descriptionAr: "الهيروغليفية والفراعنة والأهرامات والتحنيط.", subjects: ["Social Studies"], categories: [], type: "edtech" },
   { id: "free-world-maps", name: "Free World Maps", url: "https://www.freeworldmaps.net/", description: "Atlas of the world.", descriptionAr: "أطلس العالم.", subjects: ["Social Studies"], categories: [], type: "edtech" },
   { id: "geoguessr-seterra", name: "GeoGuessr Seterra Quiz", url: "https://www.geoguessr.com/quiz/seterra", description: "Geography quizzes from Seterra on GeoGuessr.", descriptionAr: "اختبارات جغرافية من سيتيرا على GeoGuessr.", subjects: ["Social Studies"], categories: [], type: "edtech" },
+  { id: "egymonuments", name: "Egypt Monuments", url: "https://egymonuments.gov.eg/en", description: "Official Egyptian monuments and heritage site information.", descriptionAr: "موقع رسمي للآثار والمعالم المصرية.", subjects: ["Social Studies"], categories: [], type: "edtech" },
   { id: "education-com-ss", name: "Education.com Games", url: "https://www.education.com/resources/games/", description: "Educational games for social studies.", descriptionAr: "ألعاب تعليمية للدراسات الاجتماعية.", subjects: ["Social Studies"], categories: [], type: "edtech" },
 
   // === Religion ===
